@@ -1,0 +1,23 @@
+{
+  "name": "Teleprompter Pro",
+  "short_name": "Teleprompter",
+  "description": "A simple and effective teleprompter application. Paste your script, adjust speed and font size, and start presenting. The high-contrast black background and yellow text ensure maximum readability for any recording.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#fbbf24",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}

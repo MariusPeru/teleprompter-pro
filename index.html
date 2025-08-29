@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teleprompter Pro</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#fbbf24" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        overscroll-behavior: none;
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+      }
+    </style>
+  </head>
+  <body class="bg-black text-yellow-400 font-sans antialiased">
+    <div id="root"></div>
+    <!-- Vite inyectará el script correcto aquí -->
+    <script type="module" src="/index.tsx"></script> 
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Teleprompter Pro",
+  "description": "A simple and effective teleprompter application. Paste your script, adjust speed and font size, and start presenting. The high-contrast black background and yellow text ensure maximum readability for any recording.",
+  "requestFramePermissions": []
+}
